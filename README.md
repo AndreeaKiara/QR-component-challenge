@@ -51,3 +51,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Acknowledgments
 
 Thank you to Kevin Powell (https://www.youtube.com/@KevinPowell), after watching his tutorial on another challenge I was able to solve this one on my own!
+Thank you to everyone who commented suggestions when I first uploaded the solution, I hope I made the proper changes to it!
