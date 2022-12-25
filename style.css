@@ -85,9 +85,11 @@ h6 {
 body {
   background-color: var(--clr-neutral-200);
   font-family: var(--ff-base);
+  color: var(--clr-neutral-400);
 
   display: grid;
   place-content: center;
+  min-height: 100vh;
 }
 
 .qr {
@@ -98,36 +100,32 @@ body {
   max-width: 375px;
 }
 
-.qr-img-area {
-  justify-content: center;
+.qr-img {
+  border-radius: 0.7rem;
+  max-width: 100%;
 }
 
-.qr-img {
-  display: flex;
-  border-radius: 0.7rem;
-  justify-content: center;
+.qr-text {
+  padding: 1rem;
 }
 
 .qr-title {
-  margin: 0.9rem;
-  font-size: 22px;
   color: var(--clr-neutral-700);
   line-height: 1.7rem;
   text-align: center;
+  margin-bottom: 1rem;
+  font-weight: var(--fw-bold);
 }
 
 .qr-description {
   font-size: 15px;
   text-align: center;
-  margin: 1rem;
-  color: var(--clr-neutral-400);
 }
 
 .attribution {
   text-align: center;
   margin-top: 4rem;
   font-size: 10px;
-  color: var(--clr-neutral-400);
 }
 
 .attribution a {
